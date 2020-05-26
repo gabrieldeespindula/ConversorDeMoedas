@@ -11,13 +11,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/qual_o_valor_em_real" />
+        android:text="@string/qual_o_valor_em_real"
+        android:id="@+id/editValor"/>
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:id="@+id/editValor"/>
+        android:text=""/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -27,8 +27,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/valor_em_d_lar"
-        android:id="@+id/textDolar"/>
+        android:text="@string/valor_em_d_lar"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -38,15 +37,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/valor_em_euro"
-        android:id="@+id/textEuro"/>
+        android:text="@string/valor_em_euro"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/calcular"
-        android:id="@+id/buttonCalculate"/>
-
+        android:text="@string/calcular"/>
 
 
 
